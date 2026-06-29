@@ -104,7 +104,7 @@ final class CameraManager: NSObject, ObservableObject {
     }
 }
 
-extension CameraManager: AVCapturePhotoOutputDelegate {
+extension CameraManager: AVCapturePhotoCaptureDelegate {
     nonisolated func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: Error?) {
         let image = photo.fileDataRepresentation().flatMap(UIImage.init(data:))
         Task { @MainActor in
