@@ -28,7 +28,7 @@ jobs:
             -target VeriPhone \
             -configuration Release \
             -sdk iphoneos \
-            -derivedDataPath build \
+            SYMROOT="$(pwd)/build" \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY="" \
@@ -38,7 +38,7 @@ jobs:
       - name: Empaquetar como .ipa (sin firmar)
         run: |
           set -e
-          APP_PATH="build/Build/Products/Release-iphoneos/VeriPhone.app"
+          APP_PATH="build/Release-iphoneos/VeriPhone.app"
           if [ ! -d "$APP_PATH" ]; then
             echo "No se encontró VeriPhone.app en $APP_PATH"
             find build/Build/Products -maxdepth 3
