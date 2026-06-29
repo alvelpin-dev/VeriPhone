@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020605BFA97FA63F3AA62B75 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = CBB46FBD64D34BF1BD00FDDF;
+		};
+		0389FE5ACFE6B6A8CE310B7A /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "3052389A34BE976BF3533411";
+		};
+		0A95F76FCD3FF8061A1CD081 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = C74A35319CFCD40DEB84ADFE;
+		};
+		0B4777CA014F1D1A99D0CDA8 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = E46320ABFAF5B9244AC4A977;
+		};
+		0B48047159776BA302C673C9 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = B15642E3320FE5560F26E1F0;
+		};
+		101B0640FF0B49F495C6817F /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "7F9DEBE4DA4900646B231268";
+		};
+		15F3626567BD9AED7EA2ABA2 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "926F40EEACF4DFFAF907AD27";
+		};
+		19577458566208CB9F3D5347 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "586C91E7634A4ADAF320E3F7";
+		};
+		1AD49D548A35DB76CE06D02D /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "55AA50A185D77A7E6685B492";
+		};
+		3735B1B69010AD665FC2B347 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "52210DFD11ED43A6EF6603F5";
+		};
+		3FC56ED6B649EF27973C09FF /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "66BC2CEE291A5EA3CB81AA66";
+		};
+		453BD534C44DCE2F94FBCCEC /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "4805AA4A4BFDCE8038D2941B";
+		};
+		4A739CB320F86CFC7617DEB9 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "78E4F72801CD2AEF86E2CC42";
+		};
+		515EE5A2607823E6EB54CCE8 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "88562754BB8EA567B7AF1A7E";
+		};
+		54830927886766690AE275C4 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = B3228B2E8FF3336E03404FCC;
+		};
+		5539D108B4D422AC5A06D91F /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "23CE8544934E21D7DE2BF90E";
+		};
+		57C8A5114C151C5CC4005950 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "3798D1F237BB42970D001B1A";
+		};
+		5F67292D3097970B3CEDE434 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "48739B0194F51BD95E689601";
+		};
+		65FE9658DA3E6DB9469221CF /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = A509E57F8E62D0B4EC2CC1BE;
+		};
+		66CF89BC95270ECC27D37F1C /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "09D8AA451CC6EB400AACABD5";
+		};
+		734D46349BE390F175E09DFE /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = E9FB214D816D40C77564D8EF;
+		};
+		86077B3B652F3ECE67227C31 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = F9E31C79C877E5FBF6CF545E;
+		};
+		8AB53D28DE94C40D3C1F3917 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = A7671D2299E37A394AAD2FBD;
+		};
+		99E10ACCD7B7AA91C2DC7346 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = B181D2C601FCC36561C93D2C;
+		};
+		99E88D9A2CFE5BBABFAC4ACD /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "5A9438BC74F0D44054712309";
+		};
+		9A2F16276EF700F3D4C92483 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "90CA45544755668E4B3F3F17";
+		};
+		9AA8322A52B6AC80D0F6E569 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "722EFDC54683863DB1E77D17";
+		};
+		9B7ACB389844B56F6C73879D /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "60C2391A4A89B184C556CCD7";
+		};
+		AE3F93F061B00B5BC523F637 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "5601BA4076D4467B95F382B3";
+		};
+		B2494EE7A94C402BFF726070 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = BFF0BC1976A5F34F6E40C575;
+		};
+		B6FEE9A1BB013B5B3DD6EACC /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = B0F332522CA50D86BC9E5673;
+		};
+		C789481D9A5474F4D29949DD /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "14EBB3DA7668DA9629F10EDB";
+		};
+		CA9710914B4920868200AD87 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = B50ADAFBFD62EBDC93C81DB1;
+		};
+		DE77C582AE9309133AD5D1AC /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "1907FC4BBCD6032F32A4A7B8";
+		};
+		E01F453CAA60B1E937F0D983 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = BB1179D04E46AD886AEBE131;
+		};
+		E343C5C91A1B2C05ACC750CB /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "082162BBDE5BFDABCF5D691F";
+		};
+		F91BB8B30B8F7A05D95C04BB /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "767F5BAB4E7AB71C478B4EA0";
+		};
+		FCA78C97DA37CA5C2902AA9D /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = "8DE2C0D8235E57B9BDD895CB";
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		082162BBDE5BFDABCF5D691F /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			path = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+		09D8AA451CC6EB400AACABD5 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = CameraManager.swift;
+			sourceTree = "<group>";
+		};
+		1455803909478C8E19E1CC2C /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = "0";
+			path = VeriPhone.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		14EBB3DA7668DA9629F10EDB /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = StatusBadge.swift;
+			sourceTree = "<group>";
+		};
+		1907FC4BBCD6032F32A4A7B8 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = HomeView.swift;
+			sourceTree = "<group>";
+		};
+		23CE8544934E21D7DE2BF90E /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DeviceInfoCard.swift;
+			sourceTree = "<group>";
+		};
+		3052389A34BE976BF3533411 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DiagnosticModels.swift;
+			sourceTree = "<group>";
+		};
+		3798D1F237BB42970D001B1A /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = MotionTestContent.swift;
+			sourceTree = "<group>";
+		};
+		4805AA4A4BFDCE8038D2941B /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ConnectivityTestContent.swift;
+			sourceTree = "<group>";
+		};
+		48739B0194F51BD95E689601 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ReportView.swift;
+			sourceTree = "<group>";
+		};
+		52210DFD11ED43A6EF6603F5 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ChargingTestContent.swift;
+			sourceTree = "<group>";
+		};
+		55AA50A185D77A7E6685B492 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ConnectivityManager.swift;
+			sourceTree = "<group>";
+		};
+		5601BA4076D4467B95F382B3 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = BatteryTestContent.swift;
+			sourceTree = "<group>";
+		};
+		586C91E7634A4ADAF320E3F7 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = LiveMetricChartView.swift;
+			sourceTree = "<group>";
+		};
+		5A9438BC74F0D44054712309 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = PDFExporter.swift;
+			sourceTree = "<group>";
+		};
+		60C2391A4A89B184C556CCD7 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DeviceDatabase.swift;
+			sourceTree = "<group>";
+		};
+		66BC2CEE291A5EA3CB81AA66 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = HapticsTestContent.swift;
+			sourceTree = "<group>";
+		};
+		6761F647941278DF01BFBC08 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		722EFDC54683863DB1E77D17 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = VeriPhoneApp.swift;
+			sourceTree = "<group>";
+		};
+		767F5BAB4E7AB71C478B4EA0 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DeviceModel.swift;
+			sourceTree = "<group>";
+		};
+		78E4F72801CD2AEF86E2CC42 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = CameraTestContent.swift;
+			sourceTree = "<group>";
+		};
+		7F9DEBE4DA4900646B231268 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = BiometricTestContent.swift;
+			sourceTree = "<group>";
+		};
+		88562754BB8EA567B7AF1A7E /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = EnvironmentSensorManager.swift;
+			sourceTree = "<group>";
+		};
+		8DE2C0D8235E57B9BDD895CB /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DisplayTestContent.swift;
+			sourceTree = "<group>";
+		};
+		90CA45544755668E4B3F3F17 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DiagnosticListView.swift;
+			sourceTree = "<group>";
+		};
+		926F40EEACF4DFFAF907AD27 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DeviceInfoManager.swift;
+			sourceTree = "<group>";
+		};
+		A509E57F8E62D0B4EC2CC1BE /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ManualConfirmView.swift;
+			sourceTree = "<group>";
+		};
+		A7671D2299E37A394AAD2FBD /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DiagnosticViewModel.swift;
+			sourceTree = "<group>";
+		};
+		B0F332522CA50D86BC9E5673 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = AudioTestContent.swift;
+			sourceTree = "<group>";
+		};
+		B15642E3320FE5560F26E1F0 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = HapticManager.swift;
+			sourceTree = "<group>";
+		};
+		B181D2C601FCC36561C93D2C /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ButtonsTestContent.swift;
+			sourceTree = "<group>";
+		};
+		B3228B2E8FF3336E03404FCC /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = HomeViewModel.swift;
+			sourceTree = "<group>";
+		};
+		B50ADAFBFD62EBDC93C81DB1 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = BiometricManager.swift;
+			sourceTree = "<group>";
+		};
+		BB1179D04E46AD886AEBE131 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = SensorsTestContent.swift;
+			sourceTree = "<group>";
+		};
+		BFF0BC1976A5F34F6E40C575 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = TestDetailView.swift;
+			sourceTree = "<group>";
+		};
+		C74A35319CFCD40DEB84ADFE /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = LocationManager.swift;
+			sourceTree = "<group>";
+		};
+		CBB46FBD64D34BF1BD00FDDF /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = ARCapabilityManager.swift;
+			sourceTree = "<group>";
+		};
+		E46320ABFAF5B9244AC4A977 /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = DiagnosticTestFactory.swift;
+			sourceTree = "<group>";
+		};
+		E9FB214D816D40C77564D8EF /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = MotionManager.swift;
+			sourceTree = "<group>";
+		};
+		F9E31C79C877E5FBF6CF545E /* PBXFileReference */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			path = AudioManager.swift;
+			sourceTree = "<group>";
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7860BD0DEC5940C4C1240E69 /* PBXFrameworksBuildPhase */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = "2147483647";
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001E165750E8A2840FFDD18C /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				"1455803909478C8E19E1CC2C",
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0883E6F0B923AF5B6BACA393 /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				"8E01467C6863FAE61F5382F3",
+				"1F5844899CFC45623C4C0893",
+				"5137721A04C7F4A4823B4C32",
+				"27F999E030BF012CDC77D043",
+				"0CDCD48A7422173F587C9666",
+				"6FA463440FE56A8527FB04D6",
+				FE831B3B4A32A4F4EF4A9A0D,
+				"2CA0E6F4E6C9062A5F5D7036",
+			);
+			name = VeriPhone;
+			path = VeriPhone;
+			sourceTree = "<group>";
+		};
+		0CDCD48A7422173F587C9666 /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				"5A9438BC74F0D44054712309",
+			);
+			name = Utilities;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1F5844899CFC45623C4C0893 /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				E46320ABFAF5B9244AC4A977,
+			);
+			name = Diagnostics;
+			path = Diagnostics;
+			sourceTree = "<group>";
+		};
+		27F999E030BF012CDC77D043 /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				"60C2391A4A89B184C556CCD7",
+				"767F5BAB4E7AB71C478B4EA0",
+				"3052389A34BE976BF3533411",
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2CA0E6F4E6C9062A5F5D7036 /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				"082162BBDE5BFDABCF5D691F",
+				"6761F647941278DF01BFBC08",
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5137721A04C7F4A4823B4C32 /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				CBB46FBD64D34BF1BD00FDDF,
+				F9E31C79C877E5FBF6CF545E,
+				B50ADAFBFD62EBDC93C81DB1,
+				"09D8AA451CC6EB400AACABD5",
+				"55AA50A185D77A7E6685B492",
+				"926F40EEACF4DFFAF907AD27",
+				"88562754BB8EA567B7AF1A7E",
+				B15642E3320FE5560F26E1F0,
+				C74A35319CFCD40DEB84ADFE,
+				E9FB214D816D40C77564D8EF,
+			);
+			name = Managers;
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		593C5A56528E446CCA68C677 /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				"48739B0194F51BD95E689601",
+			);
+			name = Report;
+			path = Report;
+			sourceTree = "<group>";
+		};
+		62B4E67E8D41DEB2C1502069 /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				"0883E6F0B923AF5B6BACA393",
+				"001E165750E8A2840FFDD18C",
+			);
+			sourceTree = "<group>";
+		};
+		6FA463440FE56A8527FB04D6 /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				A7671D2299E37A394AAD2FBD,
+				B3228B2E8FF3336E03404FCC,
+			);
+			name = ViewModels;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		798B78774A828A17D499599B /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				"90CA45544755668E4B3F3F17",
+				BFF0BC1976A5F34F6E40C575,
+				ABC3E7EE8B53ACBD0872A8DB,
+			);
+			name = Diagnostic;
+			path = Diagnostic;
+			sourceTree = "<group>";
+		};
+		8AFAD80BF46DEC63D1963D8A /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				"23CE8544934E21D7DE2BF90E",
+				"1907FC4BBCD6032F32A4A7B8",
+			);
+			name = Home;
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8E01467C6863FAE61F5382F3 /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				"722EFDC54683863DB1E77D17",
+			);
+			name = App;
+			path = App;
+			sourceTree = "<group>";
+		};
+		AAE30D69C856603C86A62886 /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				"586C91E7634A4ADAF320E3F7",
+				A509E57F8E62D0B4EC2CC1BE,
+				"14EBB3DA7668DA9629F10EDB",
+			);
+			name = Components;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		ABC3E7EE8B53ACBD0872A8DB /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				B0F332522CA50D86BC9E5673,
+				"5601BA4076D4467B95F382B3",
+				"7F9DEBE4DA4900646B231268",
+				B181D2C601FCC36561C93D2C,
+				"78E4F72801CD2AEF86E2CC42",
+				"52210DFD11ED43A6EF6603F5",
+				"4805AA4A4BFDCE8038D2941B",
+				"8DE2C0D8235E57B9BDD895CB",
+				"66BC2CEE291A5EA3CB81AA66",
+				"3798D1F237BB42970D001B1A",
+				BB1179D04E46AD886AEBE131,
+			);
+			name = Tests;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		FE831B3B4A32A4F4EF4A9A0D /* PBXGroup */ = {
+			isa = PBXGroup;
+			children = (
+				AAE30D69C856603C86A62886,
+				"798B78774A828A17D499599B",
+				"8AFAD80BF46DEC63D1963D8A",
+				"593C5A56528E446CCA68C677",
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03377B935D1E2856BA3DD36F /* PBXNativeTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "62FCCD2FF7AEA19A5CCAC808";
+			buildPhases = (
+				EEEC6C924D39A13A7A81A6AF,
+				"7860BD0DEC5940C4C1240E69",
+				BA05499FDB0FF076925CFE02,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeriPhone;
+			productName = VeriPhone;
+			productReference = "1455803909478C8E19E1CC2C";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99F4D5C32944EEFDC9FA663E /* PBXProject */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = "1";
+				LastSwiftUpdateCheck = "1600";
+				LastUpgradeCheck = "1600";
+				TargetAttributes = {
+					"03377B935D1E2856BA3DD36F" = {
+						CreatedOnToolsVersion = "16.0";
+					};
+				};
+			};
+			buildConfigurationList = E34B188B09FA37E2F4684631;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = es;
+			hasScannedForEncodings = "0";
+			knownRegions = (
+				es,
+				Base,
+			);
+			mainGroup = "62B4E67E8D41DEB2C1502069";
+			minimizedProjectReferenceProxies = "1";
+			preferredProjectObjectVersion = "77";
+			productRefGroup = "001E165750E8A2840FFDD18C";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"03377B935D1E2856BA3DD36F",
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA05499FDB0FF076925CFE02 /* PBXResourcesBuildPhase */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = "2147483647";
+			files = (
+				E343C5C91A1B2C05ACC750CB,
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEEC6C924D39A13A7A81A6AF /* PBXSourcesBuildPhase */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = "2147483647";
+			files = (
+				"9AA8322A52B6AC80D0F6E569",
+				"0B4777CA014F1D1A99D0CDA8",
+				"020605BFA97FA63F3AA62B75",
+				"86077B3B652F3ECE67227C31",
+				CA9710914B4920868200AD87,
+				"66CF89BC95270ECC27D37F1C",
+				"1AD49D548A35DB76CE06D02D",
+				"15F3626567BD9AED7EA2ABA2",
+				"515EE5A2607823E6EB54CCE8",
+				"0B48047159776BA302C673C9",
+				"0A95F76FCD3FF8061A1CD081",
+				"734D46349BE390F175E09DFE",
+				"9B7ACB389844B56F6C73879D",
+				F91BB8B30B8F7A05D95C04BB,
+				"0389FE5ACFE6B6A8CE310B7A",
+				"99E88D9A2CFE5BBABFAC4ACD",
+				"8AB53D28DE94C40D3C1F3917",
+				"54830927886766690AE275C4",
+				"19577458566208CB9F3D5347",
+				"65FE9658DA3E6DB9469221CF",
+				C789481D9A5474F4D29949DD,
+				"9A2F16276EF700F3D4C92483",
+				B2494EE7A94C402BFF726070,
+				B6FEE9A1BB013B5B3DD6EACC,
+				AE3F93F061B00B5BC523F637,
+				"101B0640FF0B49F495C6817F",
+				"99E10ACCD7B7AA91C2DC7346",
+				"4A739CB320F86CFC7617DEB9",
+				"3735B1B69010AD665FC2B347",
+				"453BD534C44DCE2F94FBCCEC",
+				FCA78C97DA37CA5C2902AA9D,
+				"3FC56ED6B649EF27973C09FF",
+				"57C8A5114C151C5CC4005950",
+				E01F453CAA60B1E937F0D983,
+				"5539D108B4D422AC5A06D91F",
+				DE77C582AE9309133AD5D1AC,
+				"5F67292D3097970B3CEDE434",
+			);
+			runOnlyForDeploymentPostprocessing = "0";
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		641A79069EF40D7260F0BCC2 /* XCBuildConfiguration */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "1";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VeriPhone/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				MARKETING_VERSION = "1.0";
+				PRODUCT_BUNDLE_IDENTIFIER = com.veriphone.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78A696395D518A59AB8DB32D /* XCBuildConfiguration */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = "0";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = "5.0";
+			};
+			name = Debug;
+		};
+		93C97936564DD55CDA48FDD0 /* XCBuildConfiguration */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "1";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GCC_OPTIMIZATION_LEVEL = "0";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VeriPhone/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				MARKETING_VERSION = "1.0";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.veriphone.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "5.0";
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Debug;
+		};
+		EB14B35A47156AEFBD1A7D0E /* XCBuildConfiguration */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = "17.0";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = "5.0";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62FCCD2FF7AEA19A5CCAC808 /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"93C97936564DD55CDA48FDD0",
+				"641A79069EF40D7260F0BCC2",
+			);
+			defaultConfigurationIsVisible = "0";
+			defaultConfigurationName = Release;
+		};
+		E34B188B09FA37E2F4684631 /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"78A696395D518A59AB8DB32D",
+				EB14B35A47156AEFBD1A7D0E,
+			);
+			defaultConfigurationIsVisible = "0";
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99F4D5C32944EEFDC9FA663E /* Project object */;
+}

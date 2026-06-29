@@ -1,0 +1,58 @@
+name: Build unsigned IPA
+
+# Se ejecuta al hacer push a main o manualmente desde la pestaña Actions de GitHub.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    # Runner macOS con Xcode preinstalado. Gratis e ilimitado en repositorios públicos.
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Seleccionar Xcode estable más reciente
+        run: sudo xcode-select -switch /Applications/Xcode.app
+
+      - name: Mostrar versión de Xcode
+        run: xcodebuild -version
+
+      - name: Compilar sin firmar (Release, dispositivo físico)
+        run: |
+          xcodebuild \
+            -project VeriPhone.xcodeproj \
+            -target VeriPhone \
+            -configuration Release \
+            -sdk iphoneos \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            DEVELOPMENT_TEAM="" \
+            build
+
+      - name: Empaquetar como .ipa (sin firmar)
+        run: |
+          set -e
+          APP_PATH="build/Build/Products/Release-iphoneos/VeriPhone.app"
+          if [ ! -d "$APP_PATH" ]; then
+            echo "No se encontró VeriPhone.app en $APP_PATH"
+            find build/Build/Products -maxdepth 3
+            exit 1
+          fi
+          mkdir -p ipa_root/Payload
+          cp -R "$APP_PATH" ipa_root/Payload/
+          cd ipa_root
+          zip -r ../VeriPhone-unsigned.ipa Payload
+          cd ..
+
+      - name: Subir .ipa como artifact descargable
+        uses: actions/upload-artifact@v4
+        with:
+          name: VeriPhone-unsigned-ipa
+          path: VeriPhone-unsigned.ipa
+          retention-days: 14
