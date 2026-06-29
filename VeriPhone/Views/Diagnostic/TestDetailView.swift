@@ -9,6 +9,7 @@ typealias TestCompletion = (TestStatus, String) -> Void
 struct TestDetailView: View {
     @ObservedObject var viewModel: DiagnosticViewModel
     let test: DiagnosticTest
+    @Environment(\.dismiss) private var dismiss
 
     private var result: TestResult { viewModel.result(for: test) }
 
@@ -28,6 +29,11 @@ struct TestDetailView: View {
                                 .foregroundStyle(.secondary)
                                 .multilineTextAlignment(.center)
                         }
+                        if test.isAutomatic && result.status == .pass {
+                            Text("Volviendo a la lista…")
+                                .font(.caption2)
+                                .foregroundStyle(.tertiary)
+                        }
                     }
                     .transition(.opacity.combined(with: .scale))
                 }
@@ -41,6 +47,17 @@ struct TestDetailView: View {
         .navigationTitle(test.title)
         .navigationBarTitleDisplayMode(.inline)
         .animation(.snappy, value: result.status)
+        // Las pruebas automáticas se confirman solas: en cuanto el sistema
+        // detecta que el hardware funciona, no tiene sentido obligar al
+        // usuario a pulsar "atrás" manualmente.
+        .onChange(of: result.status) { _, newStatus in
+            guard test.isAutomatic, newStatus == .pass else { return }
+            Task {
+                try? await Task.sleep(for: .seconds(1.1))
+                guard !Task.isCancelled else { return }
+                dismiss()
+            }
+        }
     }
 
     private var header: some View {

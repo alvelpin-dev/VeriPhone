@@ -30,7 +30,7 @@ struct AccelerometerTestContent: View {
         }
         .onAppear {
             guard motion.isAccelerometerAvailable else {
-                onComplete(.fail, "Acelerómetro no disponible.")
+                Task { @MainActor in onComplete(.fail, "Acelerómetro no disponible.") }
                 return
             }
             startTime = Date()
@@ -46,7 +46,7 @@ struct AccelerometerTestContent: View {
         samples.append(LiveMetricSample(time: t, value: a.x, axis: "X"))
         samples.append(LiveMetricSample(time: t, value: a.y, axis: "Y"))
         samples.append(LiveMetricSample(time: t, value: a.z, axis: "Z"))
-        if samples.count > 300 { samples.removeFirst(3) }
+        if samples.count > 150 { samples.removeFirst(3) }
         maxMagnitude = max(maxMagnitude, sqrt(a.x * a.x + a.y * a.y + a.z * a.z) - 1.0)
     }
 }
@@ -80,7 +80,7 @@ struct GyroscopeTestContent: View {
         }
         .onAppear {
             guard motion.isGyroAvailable else {
-                onComplete(.fail, "Giroscopio no disponible.")
+                Task { @MainActor in onComplete(.fail, "Giroscopio no disponible.") }
                 return
             }
             startTime = Date()
@@ -96,7 +96,7 @@ struct GyroscopeTestContent: View {
         samples.append(LiveMetricSample(time: t, value: r.x, axis: "X"))
         samples.append(LiveMetricSample(time: t, value: r.y, axis: "Y"))
         samples.append(LiveMetricSample(time: t, value: r.z, axis: "Z"))
-        if samples.count > 300 { samples.removeFirst(3) }
+        if samples.count > 150 { samples.removeFirst(3) }
         maxRate = max(maxRate, abs(r.x) + abs(r.y) + abs(r.z))
     }
 }
@@ -203,7 +203,7 @@ struct BarometerTestContent: View {
         }
         .onAppear {
             guard motion.isBarometerAvailable else {
-                onComplete(.skipped, "Barómetro no disponible en este dispositivo.")
+                Task { @MainActor in onComplete(.skipped, "Barómetro no disponible en este dispositivo.") }
                 return
             }
             motion.startBarometer()
